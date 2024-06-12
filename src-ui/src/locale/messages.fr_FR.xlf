@@ -2477,7 +2477,7 @@
         </context-group>
         <target state="final">Cette action est irréversible.</target>
       </trans-unit>
-      <trans-unit id="1181910457994920507" datatype="html">
+      <trans-unit id="1181910457994920507" datatype="html" approved="yes">
         <source>Proceed</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/admin/users-groups/users-groups.component.ts</context>
@@ -2497,11 +2497,11 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/document-detail/document-detail.component.ts</context>
-          <context context-type="linenumber">1151</context>
+          <context context-type="linenumber">1152</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/document-detail/document-detail.component.ts</context>
-          <context context-type="linenumber">1192</context>
+          <context context-type="linenumber">1193</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/document-list/bulk-editor/bulk-editor.component.ts</context>
@@ -2535,7 +2535,7 @@
           <context context-type="sourcefile">src/app/components/manage/workflows/workflows.component.ts</context>
           <context context-type="linenumber">99</context>
         </context-group>
-        <target state="translated">Continuer</target>
+        <target state="final">Continuer</target>
       </trans-unit>
       <trans-unit id="857903183180440990" datatype="html" approved="yes">
         <source>Deleted user</source>
@@ -3229,11 +3229,19 @@
         </context-group>
         <target state="final">Régénérer toutes les métadonnées</target>
       </trans-unit>
+      <trans-unit id="5612366187076076264" datatype="html">
+        <source>Delete original documents after successful merge</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/common/confirm-dialog/merge-confirm-dialog/merge-confirm-dialog.component.html</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+        <target state="translated">Supprimer les documents originaux après une fusion réussie</target>
+      </trans-unit>
       <trans-unit id="5138283234724909648" datatype="html" approved="yes">
         <source>Note that only PDFs will be included.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/common/confirm-dialog/merge-confirm-dialog/merge-confirm-dialog.component.html</context>
-          <context context-type="linenumber">30</context>
+          <context context-type="linenumber">34</context>
         </context-group>
         <target state="final">Notez que seuls les PDF seront inclus.</target>
       </trans-unit>
@@ -3252,6 +3260,14 @@
           <context context-type="linenumber">28</context>
         </context-group>
         <target state="final">Ajouter une séparation</target>
+      </trans-unit>
+      <trans-unit id="492847770415850840" datatype="html">
+        <source>Delete original document after successful split</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/common/confirm-dialog/split-confirm-dialog/split-confirm-dialog.component.html</context>
+          <context context-type="linenumber">49</context>
+        </context-group>
+        <target state="translated">Supprimer le document original après une séparation réussie</target>
       </trans-unit>
       <trans-unit id="2509141182388535183" datatype="html" approved="yes">
         <source>View</source>
@@ -6038,7 +6054,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/document-detail/document-detail.component.ts</context>
-          <context context-type="linenumber">1169</context>
+          <context context-type="linenumber">1170</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/guards/dirty-saved-view.guard.ts</context>
@@ -6520,7 +6536,7 @@
           <context context-type="sourcefile">src/app/components/document-detail/document-detail.component.ts</context>
           <context context-type="linenumber">820</context>
         </context-group>
-        <target state="translated">Cette action recréer définitivement le fichier d'archive pour ce document.</target>
+        <target state="translated">Cette action recréera définitivement le fichier d'archive pour ce document.</target>
       </trans-unit>
       <trans-unit id="302054111564709516" datatype="html">
         <source>The archive file will be re-generated with the current settings.</source>
@@ -6528,7 +6544,7 @@
           <context context-type="sourcefile">src/app/components/document-detail/document-detail.component.ts</context>
           <context context-type="linenumber">821</context>
         </context-group>
-        <target state="translated">Le fichier d'archive va être régénérés avec les paramètres actuels.</target>
+        <target state="translated">Le fichier d'archive va être régénéré avec les paramètres actuels.</target>
       </trans-unit>
       <trans-unit id="1192507664585066165" datatype="html">
         <source>Reprocess operation will begin in the background. Close and re-open or reload this document after the operation has completed to see new content.</source>
@@ -6574,7 +6590,7 @@
         <source>Split operation will begin in the background.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/document-detail/document-detail.component.ts</context>
-          <context context-type="linenumber">1128</context>
+          <context context-type="linenumber">1129</context>
         </context-group>
         <target state="translated">L’opération de séparation commencera en arrière-plan.</target>
       </trans-unit>
@@ -6582,7 +6598,7 @@
         <source>Error executing split operation</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/document-detail/document-detail.component.ts</context>
-          <context context-type="linenumber">1137</context>
+          <context context-type="linenumber">1138</context>
         </context-group>
         <target state="translated">Erreur lors de l’exécution de l’opération de séparation</target>
       </trans-unit>
@@ -6590,7 +6606,7 @@
         <source>Rotate confirm</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/document-detail/document-detail.component.ts</context>
-          <context context-type="linenumber">1149</context>
+          <context context-type="linenumber">1150</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/document-list/bulk-editor/bulk-editor.component.ts</context>
@@ -6602,7 +6618,7 @@
         <source>This operation will permanently rotate the original version of the current document.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/document-detail/document-detail.component.ts</context>
-          <context context-type="linenumber">1150</context>
+          <context context-type="linenumber">1151</context>
         </context-group>
         <target state="final">Cette action pivotera définitivement la version originale du document courant.</target>
       </trans-unit>
@@ -6610,7 +6626,7 @@
         <source>Rotation will begin in the background. Close and re-open the document after the operation has completed to see the changes.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/document-detail/document-detail.component.ts</context>
-          <context context-type="linenumber">1166</context>
+          <context context-type="linenumber">1167</context>
         </context-group>
         <target state="final">La rotation va démarrer en arrière-plan. Fermez et rouvrez le document une fois l'opération terminée pour voir les modifications.</target>
       </trans-unit>
@@ -6618,7 +6634,7 @@
         <source>Error executing rotate operation</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/document-detail/document-detail.component.ts</context>
-          <context context-type="linenumber">1178</context>
+          <context context-type="linenumber">1179</context>
         </context-group>
         <target state="translated">Erreur lors de l'exécution de l'opération de rotation</target>
       </trans-unit>
@@ -6626,7 +6642,7 @@
         <source>Delete pages confirm</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/document-detail/document-detail.component.ts</context>
-          <context context-type="linenumber">1190</context>
+          <context context-type="linenumber">1191</context>
         </context-group>
         <target state="translated">Confirmer la suppression des pages</target>
       </trans-unit>
@@ -6634,7 +6650,7 @@
         <source>This operation will permanently delete the selected pages from the original document.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/document-detail/document-detail.component.ts</context>
-          <context context-type="linenumber">1191</context>
+          <context context-type="linenumber">1192</context>
         </context-group>
         <target state="translated">Cette action supprimera définitivement les pages sélectionnées du document original.</target>
       </trans-unit>
@@ -6642,7 +6658,7 @@
         <source>Delete pages operation will begin in the background. Close and re-open or reload this document after the operation has completed to see the changes.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/document-detail/document-detail.component.ts</context>
-          <context context-type="linenumber">1206</context>
+          <context context-type="linenumber">1207</context>
         </context-group>
         <target state="translated">La suppression des pages va démarrer en arrière-plan. Fermez et rouvrez ou rechargez ce document une fois l'opération terminée pour voir les modifications.</target>
       </trans-unit>
@@ -6650,7 +6666,7 @@
         <source>Error executing delete pages operation</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/document-detail/document-detail.component.ts</context>
-          <context context-type="linenumber">1215</context>
+          <context context-type="linenumber">1216</context>
         </context-group>
         <target state="translated">Erreur lors de l'exécution de l'opération de suppression des pages</target>
       </trans-unit>
@@ -7076,7 +7092,7 @@
         <source>Merged document will be queued for consumption.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/document-list/bulk-editor/bulk-editor.component.ts</context>
-          <context context-type="linenumber">819</context>
+          <context context-type="linenumber">822</context>
         </context-group>
         <target state="translated">Le document fusionné sera dans la file d'attente pour consommation.</target>
       </trans-unit>

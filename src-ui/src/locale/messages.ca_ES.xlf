@@ -2497,11 +2497,11 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/document-detail/document-detail.component.ts</context>
-          <context context-type="linenumber">1151</context>
+          <context context-type="linenumber">1152</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/document-detail/document-detail.component.ts</context>
-          <context context-type="linenumber">1192</context>
+          <context context-type="linenumber">1193</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/document-list/bulk-editor/bulk-editor.component.ts</context>
@@ -3055,7 +3055,7 @@
           <context context-type="sourcefile">src/app/components/app-frame/global-search/global-search.component.html</context>
           <context context-type="linenumber">159</context>
         </context-group>
-        <target state="translated">Normes e-mail</target>
+        <target state="translated">Normes correu</target>
       </trans-unit>
       <trans-unit id="searchResults.workflows" datatype="html">
         <source>Workflows</source>
@@ -3229,11 +3229,19 @@
         </context-group>
         <target state="translated">Regenerar totes les metadades</target>
       </trans-unit>
+      <trans-unit id="5612366187076076264" datatype="html">
+        <source>Delete original documents after successful merge</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/common/confirm-dialog/merge-confirm-dialog/merge-confirm-dialog.component.html</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+        <target state="translated">Esborrar document original després d'un fusionat correcte</target>
+      </trans-unit>
       <trans-unit id="5138283234724909648" datatype="html">
         <source>Note that only PDFs will be included.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/common/confirm-dialog/merge-confirm-dialog/merge-confirm-dialog.component.html</context>
-          <context context-type="linenumber">30</context>
+          <context context-type="linenumber">34</context>
         </context-group>
         <target state="translated">Tingues en compte que només els PDFs seràn inclosos.</target>
       </trans-unit>
@@ -3252,6 +3260,14 @@
           <context context-type="linenumber">28</context>
         </context-group>
         <target state="translated">Afegeix Divisió</target>
+      </trans-unit>
+      <trans-unit id="492847770415850840" datatype="html">
+        <source>Delete original document after successful split</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/common/confirm-dialog/split-confirm-dialog/split-confirm-dialog.component.html</context>
+          <context context-type="linenumber">49</context>
+        </context-group>
+        <target state="translated">Esborrar document original després d'una divisió correcte</target>
       </trans-unit>
       <trans-unit id="2509141182388535183" datatype="html">
         <source>View</source>
@@ -4327,7 +4343,7 @@
           <context context-type="sourcefile">src/app/components/common/edit-dialog/workflow-edit-dialog/workflow-edit-dialog.component.html</context>
           <context context-type="linenumber">122</context>
         </context-group>
-        <target state="translated">Disparadors per documents coincidents amb <x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em&gt;"/>all<x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em&gt;"/> filters specified below.</target>
+        <target state="translated">Disparadors per documents coincidents amb <x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em&gt;"/>all<x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em&gt;"/> filtres especificats a continuació.</target>
       </trans-unit>
       <trans-unit id="7467799586957602479" datatype="html">
         <source>Filter filename</source>
@@ -5988,7 +6004,7 @@
           <context context-type="sourcefile">src/app/components/document-list/bulk-editor/bulk-editor.component.html</context>
           <context context-type="linenumber">111</context>
         </context-group>
-        <target state="needs-translation">Reprocess</target>
+        <target state="translated">Reprocesa</target>
       </trans-unit>
       <trans-unit id="1418444397960583910" datatype="html">
         <source>More like this</source>
@@ -6038,7 +6054,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/document-detail/document-detail.component.ts</context>
-          <context context-type="linenumber">1169</context>
+          <context context-type="linenumber">1170</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/guards/dirty-saved-view.guard.ts</context>
@@ -6512,7 +6528,7 @@
           <context context-type="sourcefile">src/app/components/document-list/bulk-editor/bulk-editor.component.ts</context>
           <context context-type="linenumber">751</context>
         </context-group>
-        <target state="needs-translation">Reprocess confirm</target>
+        <target state="translated">Confirma Reprocès</target>
       </trans-unit>
       <trans-unit id="2951161989614003846" datatype="html">
         <source>This operation will permanently recreate the archive file for this document.</source>
@@ -6520,7 +6536,7 @@
           <context context-type="sourcefile">src/app/components/document-detail/document-detail.component.ts</context>
           <context context-type="linenumber">820</context>
         </context-group>
-        <target state="needs-translation">This operation will permanently recreate the archive file for this document.</target>
+        <target state="translated">Aquesta operació recrearà l'arxivat per aquest document.</target>
       </trans-unit>
       <trans-unit id="302054111564709516" datatype="html">
         <source>The archive file will be re-generated with the current settings.</source>
@@ -6528,7 +6544,7 @@
           <context context-type="sourcefile">src/app/components/document-detail/document-detail.component.ts</context>
           <context context-type="linenumber">821</context>
         </context-group>
-        <target state="needs-translation">The archive file will be re-generated with the current settings.</target>
+        <target state="translated">Els arxius arxivats seran regenerats amb les opcions actuals.</target>
       </trans-unit>
       <trans-unit id="1192507664585066165" datatype="html">
         <source>Reprocess operation will begin in the background. Close and re-open or reload this document after the operation has completed to see new content.</source>
@@ -6536,7 +6552,7 @@
           <context context-type="sourcefile">src/app/components/document-detail/document-detail.component.ts</context>
           <context context-type="linenumber">831</context>
         </context-group>
-        <target state="needs-translation">Reprocess operation will begin in the background. Close and re-open or reload this document after the operation has completed to see new content.</target>
+        <target state="translated">L'operació de reprocès començarà en segon pla. Tanca i reobre o recarrega el document després que loperació hagi completat per veure el nou contingut.</target>
       </trans-unit>
       <trans-unit id="4409560272830824468" datatype="html">
         <source>Error executing operation</source>
@@ -6574,7 +6590,7 @@
         <source>Split operation will begin in the background.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/document-detail/document-detail.component.ts</context>
-          <context context-type="linenumber">1128</context>
+          <context context-type="linenumber">1129</context>
         </context-group>
         <target state="translated">L'operació de divisió començarà en segon pla.</target>
       </trans-unit>
@@ -6582,7 +6598,7 @@
         <source>Error executing split operation</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/document-detail/document-detail.component.ts</context>
-          <context context-type="linenumber">1137</context>
+          <context context-type="linenumber">1138</context>
         </context-group>
         <target state="translated">Error executant operació de divisió</target>
       </trans-unit>
@@ -6590,7 +6606,7 @@
         <source>Rotate confirm</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/document-detail/document-detail.component.ts</context>
-          <context context-type="linenumber">1149</context>
+          <context context-type="linenumber">1150</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/document-list/bulk-editor/bulk-editor.component.ts</context>
@@ -6602,7 +6618,7 @@
         <source>This operation will permanently rotate the original version of the current document.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/document-detail/document-detail.component.ts</context>
-          <context context-type="linenumber">1150</context>
+          <context context-type="linenumber">1151</context>
         </context-group>
         <target state="translated">Aquesta operació girarà permanentment la versió original del document actual.</target>
       </trans-unit>
@@ -6610,7 +6626,7 @@
         <source>Rotation will begin in the background. Close and re-open the document after the operation has completed to see the changes.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/document-detail/document-detail.component.ts</context>
-          <context context-type="linenumber">1166</context>
+          <context context-type="linenumber">1167</context>
         </context-group>
         <target state="translated">La rotació començarà en segon pla. Tanqueu i torneu a obrir el document un cop finalitzada l'operació per veure els canvis.</target>
       </trans-unit>
@@ -6618,7 +6634,7 @@
         <source>Error executing rotate operation</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/document-detail/document-detail.component.ts</context>
-          <context context-type="linenumber">1178</context>
+          <context context-type="linenumber">1179</context>
         </context-group>
         <target state="translated">Error executant operació de rotació</target>
       </trans-unit>
@@ -6626,7 +6642,7 @@
         <source>Delete pages confirm</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/document-detail/document-detail.component.ts</context>
-          <context context-type="linenumber">1190</context>
+          <context context-type="linenumber">1191</context>
         </context-group>
         <target state="translated">Confirma esborrat</target>
       </trans-unit>
@@ -6634,7 +6650,7 @@
         <source>This operation will permanently delete the selected pages from the original document.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/document-detail/document-detail.component.ts</context>
-          <context context-type="linenumber">1191</context>
+          <context context-type="linenumber">1192</context>
         </context-group>
         <target state="translated">Aquesta operació suprimirà permanentment les pàgines seleccionades del document original.</target>
       </trans-unit>
@@ -6642,7 +6658,7 @@
         <source>Delete pages operation will begin in the background. Close and re-open or reload this document after the operation has completed to see the changes.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/document-detail/document-detail.component.ts</context>
-          <context context-type="linenumber">1206</context>
+          <context context-type="linenumber">1207</context>
         </context-group>
         <target state="translated">L'operació de supressió de pàgines començarà en segon pla. Tanqueu i torneu a obrir o recarregueu aquest document un cop finalitzada l'operació per veure els canvis.</target>
       </trans-unit>
@@ -6650,7 +6666,7 @@
         <source>Error executing delete pages operation</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/document-detail/document-detail.component.ts</context>
-          <context context-type="linenumber">1215</context>
+          <context context-type="linenumber">1216</context>
         </context-group>
         <target state="translated">Error en executar l'operació d'eliminació de pàgines</target>
       </trans-unit>
@@ -7030,7 +7046,7 @@
           <context context-type="sourcefile">src/app/components/document-list/bulk-editor/bulk-editor.component.ts</context>
           <context context-type="linenumber">752</context>
         </context-group>
-        <target state="needs-translation">This operation will permanently recreate the archive files for <x id="PH" equiv-text="this.list.selected.size"/> selected document(s).</target>
+        <target state="translated">Aquesta operació recrearà els arxius arxiats per al(s) <x id="PH" equiv-text="this.list.selected.size"/> document(s) seleccionat(s).</target>
       </trans-unit>
       <trans-unit id="7366623494074776040" datatype="html">
         <source>The archive files will be re-generated with the current settings.</source>
@@ -7038,7 +7054,7 @@
           <context context-type="sourcefile">src/app/components/document-list/bulk-editor/bulk-editor.component.ts</context>
           <context context-type="linenumber">753</context>
         </context-group>
-        <target state="needs-translation">The archive files will be re-generated with the current settings.</target>
+        <target state="translated">Els arxius arxivats seran regenerats amb les opcions actuals.</target>
       </trans-unit>
       <trans-unit id="6390006284731990222" datatype="html">
         <source>This operation will permanently rotate the original version of <x id="PH" equiv-text="this.list.selected.size"/> document(s).</source>
@@ -7076,7 +7092,7 @@
         <source>Merged document will be queued for consumption.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/document-list/bulk-editor/bulk-editor.component.ts</context>
-          <context context-type="linenumber">819</context>
+          <context context-type="linenumber">822</context>
         </context-group>
         <target state="translated">El document combinat es posarà en cua per al seu consum.</target>
       </trans-unit>
@@ -7906,7 +7922,7 @@
           <context context-type="sourcefile">src/app/components/manage/mail/mail.component.html</context>
           <context context-type="linenumber">14</context>
         </context-group>
-        <target state="translated">Afergir compte</target>
+        <target state="translated">Afegir compte</target>
       </trans-unit>
       <trans-unit id="2188854519574316630" datatype="html">
         <source>Server</source>
@@ -7930,7 +7946,7 @@
           <context context-type="sourcefile">src/app/components/manage/mail/mail.component.html</context>
           <context context-type="linenumber">56</context>
         </context-group>
-        <target state="translated">Normes e-mail</target>
+        <target state="translated">Normes correu</target>
       </trans-unit>
       <trans-unit id="1372022816709469401" datatype="html">
         <source>Add Rule</source>

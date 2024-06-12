@@ -559,7 +559,7 @@
           <context context-type="sourcefile">src/app/components/admin/config/config.component.html</context>
           <context context-type="linenumber">4</context>
         </context-group>
-        <target state="final">Globale Anwendungskonfigurationsoptionen, welche für &lt;strong&gt;jeden&lt;/strong&gt; Benutzer dieser Paperless-ngx-Instanz gelten. Optionen können auch mithilfe von Umgebungsvariablen oder der Konfigurationsdatei gesetzt werden, jedoch haben die Werte hier immer Vorrang.</target>
+        <target state="final">Globale Anwendungskonfigurationsoptionen, welche für &lt;strong&gt;jeden&lt;/strong&gt; Benutzer dieser Paperless-ngx-Instanz gelten. Optionen können auch mithilfe von Umgebungsvariablen oder der Konfigurationsdatei gesetzt werden, jedoch haben die Werte auf dieser Seite immer Vorrang.</target>
       </trans-unit>
       <trans-unit id="7991430199894172363" datatype="html" approved="yes">
         <source>Read the documentation about this setting</source>
@@ -1415,7 +1415,7 @@
           <context context-type="sourcefile">src/app/components/admin/settings/settings.component.html</context>
           <context context-type="linenumber">327</context>
         </context-group>
-        <target state="final">Benachrichtigungen anzeigen, wenn die Verarbeitung des Dokuments fehlschlägt</target>
+        <target state="final">Benachrichtigungen anzeigen, wenn die Dokumentenverarbeitung fehlgeschlagen ist</target>
       </trans-unit>
       <trans-unit id="6838309441164918531" datatype="html" approved="yes">
         <source>Suppress notifications on dashboard</source>
@@ -2439,7 +2439,7 @@
           <context context-type="sourcefile">src/app/components/admin/users-groups/users-groups.component.ts</context>
           <context context-type="linenumber">115</context>
         </context-group>
-        <target state="final">Dieser Vorgang wird dieses Benutzerkonto dauerhaft löschen.</target>
+        <target state="final">Dieser Vorgang wird dieses Benutzerkonto unwiderruflich löschen.</target>
       </trans-unit>
       <trans-unit id="5641451190833696892" datatype="html" approved="yes">
         <source>This operation cannot be undone.</source>
@@ -2497,11 +2497,11 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/document-detail/document-detail.component.ts</context>
-          <context context-type="linenumber">1151</context>
+          <context context-type="linenumber">1152</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/document-detail/document-detail.component.ts</context>
-          <context context-type="linenumber">1192</context>
+          <context context-type="linenumber">1193</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/document-list/bulk-editor/bulk-editor.component.ts</context>
@@ -2583,7 +2583,7 @@
           <context context-type="sourcefile">src/app/components/admin/users-groups/users-groups.component.ts</context>
           <context context-type="linenumber">165</context>
         </context-group>
-        <target state="final">Dieser Vorgang wird diese Benutzergruppe dauerhaft löschen.</target>
+        <target state="final">Dieser Vorgang wird diese Benutzergruppe unwiderruflich löschen.</target>
       </trans-unit>
       <trans-unit id="6834066329827670963" datatype="html" approved="yes">
         <source>Deleted group</source>
@@ -3229,11 +3229,19 @@
         </context-group>
         <target state="final">Metadaten neu generieren</target>
       </trans-unit>
+      <trans-unit id="5612366187076076264" datatype="html" approved="yes">
+        <source>Delete original documents after successful merge</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/common/confirm-dialog/merge-confirm-dialog/merge-confirm-dialog.component.html</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+        <target state="final">Originaldokumente nach erfolgreicher Zusammenführung löschen</target>
+      </trans-unit>
       <trans-unit id="5138283234724909648" datatype="html" approved="yes">
         <source>Note that only PDFs will be included.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/common/confirm-dialog/merge-confirm-dialog/merge-confirm-dialog.component.html</context>
-          <context context-type="linenumber">30</context>
+          <context context-type="linenumber">34</context>
         </context-group>
         <target state="final">Beachten Sie, dass nur PDFs miteinbezogen werden.</target>
       </trans-unit>
@@ -3252,6 +3260,14 @@
           <context context-type="linenumber">28</context>
         </context-group>
         <target state="final">Teilung hinzufügen</target>
+      </trans-unit>
+      <trans-unit id="492847770415850840" datatype="html" approved="yes">
+        <source>Delete original document after successful split</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/common/confirm-dialog/split-confirm-dialog/split-confirm-dialog.component.html</context>
+          <context context-type="linenumber">49</context>
+        </context-group>
+        <target state="final">Originaldokument nach erfolgreicher Teilung löschen</target>
       </trans-unit>
       <trans-unit id="2509141182388535183" datatype="html" approved="yes">
         <source>View</source>
@@ -5978,7 +5994,7 @@
         </context-group>
         <target state="final">Original herunterladen</target>
       </trans-unit>
-      <trans-unit id="2696010339872056565" datatype="html">
+      <trans-unit id="2696010339872056565" datatype="html" approved="yes">
         <source>Reprocess</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/document-detail/document-detail.component.html</context>
@@ -5988,7 +6004,7 @@
           <context context-type="sourcefile">src/app/components/document-list/bulk-editor/bulk-editor.component.html</context>
           <context context-type="linenumber">111</context>
         </context-group>
-        <target state="translated">Erneut verarbeiten</target>
+        <target state="final">Erneut verarbeiten</target>
       </trans-unit>
       <trans-unit id="1418444397960583910" datatype="html" approved="yes">
         <source>More like this</source>
@@ -6038,7 +6054,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/document-detail/document-detail.component.ts</context>
-          <context context-type="linenumber">1169</context>
+          <context context-type="linenumber">1170</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/guards/dirty-saved-view.guard.ts</context>
@@ -6484,7 +6500,7 @@
           <context context-type="sourcefile">src/app/components/document-detail/document-detail.component.ts</context>
           <context context-type="linenumber">778</context>
         </context-group>
-        <target state="final">Die Dateien dieses Dokuments werden permanent gelöscht. Diese Aktion kann nicht rückgängig gemacht werden.</target>
+        <target state="final">Die Dateien dieses Dokuments werden unwiderruflich gelöscht. Diese Aktion kann nicht rückgängig gemacht werden.</target>
       </trans-unit>
       <trans-unit id="719892092227206532" datatype="html" approved="yes">
         <source>Delete document</source>
@@ -6502,7 +6518,7 @@
         </context-group>
         <target state="final">Fehler beim Löschen des Dokuments</target>
       </trans-unit>
-      <trans-unit id="619486176823357521" datatype="html">
+      <trans-unit id="619486176823357521" datatype="html" approved="yes">
         <source>Reprocess confirm</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/document-detail/document-detail.component.ts</context>
@@ -6512,31 +6528,31 @@
           <context context-type="sourcefile">src/app/components/document-list/bulk-editor/bulk-editor.component.ts</context>
           <context context-type="linenumber">751</context>
         </context-group>
-        <target state="translated">Erneut verarbeiten bestätigen</target>
+        <target state="final">Erneut verarbeiten bestätigen</target>
       </trans-unit>
-      <trans-unit id="2951161989614003846" datatype="html">
+      <trans-unit id="2951161989614003846" datatype="html" approved="yes">
         <source>This operation will permanently recreate the archive file for this document.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/document-detail/document-detail.component.ts</context>
           <context context-type="linenumber">820</context>
         </context-group>
-        <target state="translated">Dieser Vorgang wird die Archivdatei dieses Dokuments permanent neu erstellen.</target>
+        <target state="final">Dieser Vorgang wird die Archivdatei dieses Dokuments unwiderruflich neu erstellen.</target>
       </trans-unit>
-      <trans-unit id="302054111564709516" datatype="html">
+      <trans-unit id="302054111564709516" datatype="html" approved="yes">
         <source>The archive file will be re-generated with the current settings.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/document-detail/document-detail.component.ts</context>
           <context context-type="linenumber">821</context>
         </context-group>
-        <target state="translated">Die Archivdatei wird mit den aktuellen Einstellungen neu generiert.</target>
+        <target state="final">Die Archivdatei wird mit den aktuellen Einstellungen neu generiert.</target>
       </trans-unit>
-      <trans-unit id="1192507664585066165" datatype="html">
+      <trans-unit id="1192507664585066165" datatype="html" approved="yes">
         <source>Reprocess operation will begin in the background. Close and re-open or reload this document after the operation has completed to see new content.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/document-detail/document-detail.component.ts</context>
           <context context-type="linenumber">831</context>
         </context-group>
-        <target state="translated">Verarbeitung wird im Hintergrund ausgeführt. Schließe oder lade das Dokument neu, um Neuigkeiten zu sehen.</target>
+        <target state="final">Die erneute Verarbeitung wird im Hintergrund gestartet. Schließen und öffnen Sie dieses Dokument nach Abschluss der Operation erneut oder laden Sie es neu, um neue Inhalte anzuzeigen.</target>
       </trans-unit>
       <trans-unit id="4409560272830824468" datatype="html" approved="yes">
         <source>Error executing operation</source>
@@ -6574,7 +6590,7 @@
         <source>Split operation will begin in the background.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/document-detail/document-detail.component.ts</context>
-          <context context-type="linenumber">1128</context>
+          <context context-type="linenumber">1129</context>
         </context-group>
         <target state="final">Teilungsvorgang wird im Hintergrund gestartet.</target>
       </trans-unit>
@@ -6582,7 +6598,7 @@
         <source>Error executing split operation</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/document-detail/document-detail.component.ts</context>
-          <context context-type="linenumber">1137</context>
+          <context context-type="linenumber">1138</context>
         </context-group>
         <target state="final">Fehler beim Ausführen des Teilungsvorgangs</target>
       </trans-unit>
@@ -6590,7 +6606,7 @@
         <source>Rotate confirm</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/document-detail/document-detail.component.ts</context>
-          <context context-type="linenumber">1149</context>
+          <context context-type="linenumber">1150</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/document-list/bulk-editor/bulk-editor.component.ts</context>
@@ -6602,15 +6618,15 @@
         <source>This operation will permanently rotate the original version of the current document.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/document-detail/document-detail.component.ts</context>
-          <context context-type="linenumber">1150</context>
+          <context context-type="linenumber">1151</context>
         </context-group>
-        <target state="final">Dieser Vorgang wird die Originalversion des aktuellen Dokuments permanent rotieren.</target>
+        <target state="final">Dieser Vorgang wird die Originalversion des aktuellen Dokuments unwiderruflich rotieren.</target>
       </trans-unit>
       <trans-unit id="4069543875319587651" datatype="html" approved="yes">
         <source>Rotation will begin in the background. Close and re-open the document after the operation has completed to see the changes.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/document-detail/document-detail.component.ts</context>
-          <context context-type="linenumber">1166</context>
+          <context context-type="linenumber">1167</context>
         </context-group>
         <target state="final">Der Rotationsvorgang wird im Hintergrund gestartet. Schließen und öffnen Sie das Dokument nach Abschluss des Vorgangs erneut, um die Änderungen zu sehen.</target>
       </trans-unit>
@@ -6618,7 +6634,7 @@
         <source>Error executing rotate operation</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/document-detail/document-detail.component.ts</context>
-          <context context-type="linenumber">1178</context>
+          <context context-type="linenumber">1179</context>
         </context-group>
         <target state="final">Fehler beim Ausführen des Rotationsvorgangs</target>
       </trans-unit>
@@ -6626,7 +6642,7 @@
         <source>Delete pages confirm</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/document-detail/document-detail.component.ts</context>
-          <context context-type="linenumber">1190</context>
+          <context context-type="linenumber">1191</context>
         </context-group>
         <target state="final">Seiten löschen bestätigen</target>
       </trans-unit>
@@ -6634,15 +6650,15 @@
         <source>This operation will permanently delete the selected pages from the original document.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/document-detail/document-detail.component.ts</context>
-          <context context-type="linenumber">1191</context>
+          <context context-type="linenumber">1192</context>
         </context-group>
-        <target state="final">Dieser Vorgang wird die ausgewählten Seiten dauerhaft aus dem Originaldokument löschen.</target>
+        <target state="final">Dieser Vorgang wird die ausgewählten Seiten unwiderruflich aus dem Originaldokument löschen.</target>
       </trans-unit>
       <trans-unit id="8617528702531167646" datatype="html" approved="yes">
         <source>Delete pages operation will begin in the background. Close and re-open or reload this document after the operation has completed to see the changes.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/document-detail/document-detail.component.ts</context>
-          <context context-type="linenumber">1206</context>
+          <context context-type="linenumber">1207</context>
         </context-group>
         <target state="final">Der Vorgang „Seiten löschen“ wird im Hintergrund ausgeführt. Schließen und öffnen Sie dieses Dokument nach Abschluss der Operation erneut oder laden Sie es neu, um neue Inhalte anzuzeigen.</target>
       </trans-unit>
@@ -6650,7 +6666,7 @@
         <source>Error executing delete pages operation</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/document-detail/document-detail.component.ts</context>
-          <context context-type="linenumber">1215</context>
+          <context context-type="linenumber">1216</context>
         </context-group>
         <target state="final">Fehler beim Ausführen des Vorgangs „Seiten löschen“</target>
       </trans-unit>
@@ -7024,21 +7040,21 @@
         </context-group>
         <target state="final">Dokument(e) löschen</target>
       </trans-unit>
-      <trans-unit id="8585195717323764335" datatype="html">
+      <trans-unit id="8585195717323764335" datatype="html" approved="yes">
         <source>This operation will permanently recreate the archive files for <x id="PH" equiv-text="this.list.selected.size"/> selected document(s).</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/document-list/bulk-editor/bulk-editor.component.ts</context>
           <context context-type="linenumber">752</context>
         </context-group>
-        <target state="translated">Diese Aktion wird dauerhaft das/die Archiv(e) von <x id="PH" equiv-text="this.list.selected.size"/> verändern.</target>
+        <target state="final">Diese Aktion wird die Archivdateien von <x id="PH" equiv-text="this.list.selected.size"/> ausgewählten Dokumenten unwiderruflich neu erstellen.</target>
       </trans-unit>
-      <trans-unit id="7366623494074776040" datatype="html">
+      <trans-unit id="7366623494074776040" datatype="html" approved="yes">
         <source>The archive files will be re-generated with the current settings.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/document-list/bulk-editor/bulk-editor.component.ts</context>
           <context context-type="linenumber">753</context>
         </context-group>
-        <target state="translated">Das Archiv wird mit den aktuellen Einstellungen neu generiert.</target>
+        <target state="final">Die Archivdateien werden wird mit den aktuellen Einstellungen neu generiert.</target>
       </trans-unit>
       <trans-unit id="6390006284731990222" datatype="html" approved="yes">
         <source>This operation will permanently rotate the original version of <x id="PH" equiv-text="this.list.selected.size"/> document(s).</source>
@@ -7076,7 +7092,7 @@
         <source>Merged document will be queued for consumption.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/components/document-list/bulk-editor/bulk-editor.component.ts</context>
-          <context context-type="linenumber">819</context>
+          <context context-type="linenumber">822</context>
         </context-group>
         <target state="final">Das zusammengeführte Dokument wird zur Verarbeitung in die Warteschlange eingereiht.</target>
       </trans-unit>
@@ -7842,7 +7858,7 @@
           <context context-type="sourcefile">src/app/components/manage/custom-fields/custom-fields.component.ts</context>
           <context context-type="linenumber">72</context>
         </context-group>
-        <target state="final">Diese Aktion wird dieses Feld dauerhaft löschen.</target>
+        <target state="final">Diese Aktion wird dieses Feld unwiderruflich löschen.</target>
       </trans-unit>
       <trans-unit id="5137089475515834162" datatype="html" approved="yes">
         <source>Deleted field</source>
@@ -7994,7 +8010,7 @@
           <context context-type="sourcefile">src/app/components/manage/mail/mail.component.ts</context>
           <context context-type="linenumber">113</context>
         </context-group>
-        <target state="final">Dieser Vorgang wird dieses E-Mail-Konto dauerhaft löschen.</target>
+        <target state="final">Dieser Vorgang wird dieses E-Mail-Konto unwiderruflich löschen.</target>
       </trans-unit>
       <trans-unit id="4233826387148482123" datatype="html" approved="yes">
         <source>Deleted mail account</source>
@@ -8042,7 +8058,7 @@
           <context context-type="sourcefile">src/app/components/manage/mail/mail.component.ts</context>
           <context context-type="linenumber">172</context>
         </context-group>
-        <target state="final">Dieser Vorgang wird diese E-Mail-Regel dauerhaft löschen.</target>
+        <target state="final">Dieser Vorgang wird diese E-Mail-Regel unwiderruflich löschen.</target>
       </trans-unit>
       <trans-unit id="9077981247971516916" datatype="html" approved="yes">
         <source>Deleted mail rule</source>
@@ -8266,7 +8282,7 @@
           <context context-type="sourcefile">src/app/components/manage/management-list/management-list.component.ts</context>
           <context context-type="linenumber">321</context>
         </context-group>
-        <target state="final">Dieser Vorgang wird alle Objekte permanent löschen.</target>
+        <target state="final">Dieser Vorgang wird alle Objekte unwiderruflich löschen.</target>
       </trans-unit>
       <trans-unit id="5897787932098828336" datatype="html" approved="yes">
         <source>Objects deleted successfully</source>
@@ -8394,7 +8410,7 @@
           <context context-type="sourcefile">src/app/components/manage/workflows/workflows.component.ts</context>
           <context context-type="linenumber">96</context>
         </context-group>
-        <target state="final">Dieser Vorgang wird diesen Arbeitsablauf dauerhaft löschen.</target>
+        <target state="final">Dieser Vorgang wird diesen Arbeitsablauf unwiderruflich löschen.</target>
       </trans-unit>
       <trans-unit id="1848226135059921165" datatype="html" approved="yes">
         <source>Deleted workflow</source>
